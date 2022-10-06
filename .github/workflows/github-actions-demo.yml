@@ -4,5 +4,5 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
+  gitHub-actions-demo:
     uses: amulyakashyap09/resuable-workflows/.github/workflows/github-actions-demo.yml@main
