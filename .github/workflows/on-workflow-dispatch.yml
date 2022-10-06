@@ -1,0 +1,16 @@
+name: GitHub Actions Demo
+
+on:
+  workflow_dispatch:
+    inputs:
+      username:
+        description: 'A username passed from the caller workflow'
+        default: 'john-doe'
+        required: false
+        type: string
+
+jobs:
+  gitHub-actions-demo:
+    uses: amulyakashyap09/resuable-workflows/.github/workflows/on-push.yml@main
+  github-actions-input-demo:
+    uses: amulyakashyap09/resuable-workflows/.github/workflows/manual-trigger.yml@main
