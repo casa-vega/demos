@@ -5,4 +5,4 @@ on:
 
 jobs:
   build:
-    uses: amulyakashyap09/resuable-workflows/workflows/github-actions-demo.yml@main
+    uses: amulyakashyap09/resuable-workflows/.github/workflows/github-actions-demo.yml@main
